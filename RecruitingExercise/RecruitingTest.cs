@@ -102,7 +102,7 @@ namespace RecruitingExercise
                 PaymentType = PaymentType.AmericanExpress
             };
 
-            Assert.IsTrue(user.ExpiredSubscriptions == 0, "Expected expired subscriptions: 2 - Your code returns: {0}", user.ExpiredSubscriptions);
+            Assert.IsTrue(user.ExpiredSubscriptions == 0, "Expected expired subscriptions: 0 - Your code returns: {0}", user.ExpiredSubscriptions);
             
         }
     }
